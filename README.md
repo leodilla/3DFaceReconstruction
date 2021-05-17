@@ -32,4 +32,5 @@ Check the path in `dataloader=("./data/CACD2000_test.hdf5")`and you need to put 
 
 Run `python testnet.py`
 
-##Sample Output
+## Sample Output
+There are some output of our training and testing in the `output` folder, including the trainging curve, some loss in the training epoches, the contrast of ori/reconstructed images of the testing, the reconstructed mesh.
