@@ -26,7 +26,10 @@ Default `NUM_EPOCH=25, BATCH_SIZE=8`
 
 Run `python trainnet.py`
 ## Testing the model and get outcome
-Check the path in `dataloader=("./data/CACD2000_test.hdf5")`and you need to put the model into `MODEL_LOAD_PATH ="./modelload/demo25.pth"`, and you will get all of the visualized output images in `./test`
+Download our trained model form [GoogleDrive](https://drive.google.com/file/d/1DUOMZYQCDFljBOTrUHgPh94nyI99TbO1/view?usp=sharing) , put it in the `MODEL_LOAD_PATH ="./modelload/demo.pth"`
+
+Check the path in `dataloader=("./data/CACD2000_test.hdf5")`and you need to put the model into `MODEL_LOAD_PATH ="./modelload/demo.pth"`, and you will get all of the visualized output images in `./test`
 
 Run `python testnet.py`
 
+##Sample Output
