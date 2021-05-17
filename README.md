@@ -2,6 +2,14 @@
 The implementation of the 3D face reconstruction through Resnet and BFM model, for the course project.
 ## Preparing environment
 use Singularity on linux(with GPU)
+/scratch/work/public/singularity/cuda10.2-cudnn8-devel-ubuntu18.04.sif
+Need python=3.7.0, pytorch=1.1.0, torchvision=0.3.0, cudatoolkit=10.0
+In singularity container, you may need
+```
+Singularity>git clone https://github.com/timesler/facenet-pytorch.git facenet_pytorch
+
+Singularity>pip install h5py
+```
 ## Preparing Dataset
 Download and unzip the CACD original face from 
 >Original face images (detected and croped by openCV face detector) can be downloaded [here](https://drive.google.com/file/d/1hYIZadxcPG27Fo7mQln0Ey7uqw1DoBvM/view?usp=sharing) (3.5G)
