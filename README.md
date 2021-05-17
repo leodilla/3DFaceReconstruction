@@ -12,6 +12,13 @@ Modify the corrsponding path of the dataset input `image_list = glob.glob("../ca
 Run `python Dataprepocessing.py`
 
 ## Training the model
-Check the path in and run `python Trainnet.py`
+Check the path in `dataloader=("./data/CACD2000_train.hdf5")`and you will get the trained model in `./model_trained/`, with the visualized output images in `./result`, and the loss curve in `train.png`.
+
+Default `NUM_EPOCH=25, BATCH_SIZE=8`
+
+Run `python trainnet.py`
 ## Testing the model and get outcome
-Check the path in and run `python Trainnet.py`
+Check the path in `dataloader=("./data/CACD2000_test.hdf5")`and you need to put the model into `MODEL_LOAD_PATH ="./modelload/demo25.pth"`, and you will get all of the visualized output images in `./test`
+
+Run `python testnet.py`
+
