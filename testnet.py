@@ -1,5 +1,5 @@
 '''
-Load trained model in MODEL_LOAD_PATH ="./modelload/demo25.pth"
+Load trained model in MODEL_LOAD_PATH ="./modelload/demo.pth"
 Load test_dataloader from = CACDDataset("./data/CACD2000_test.hdf5"
 Save 8 original images, the reconstructed images and the reconstructed mesh of idx=TEST_RANDOM=6 in "./test" as 'ori_face_{}.png', 'recon_face_{}.png' or 'example_{}.ply'
 Save visualized contrast in "./test/visual.png"
@@ -42,8 +42,7 @@ import h5py
 # Specify number of epochs, image scale factor, batch size and learning rate
 TEST_RANDOM=9
 BATCH_SIZE = 8 # e.g. 8
-
-MODEL_LOAD_PATH="./modelload/demo25.pth"
+MODEL_LOAD_PATH="./modelload/demo.pth"
 SEED=0
 
 # -------------------------- Reproducibility ------------------------------
